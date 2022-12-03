@@ -10,7 +10,7 @@
 
 function react(sequence) {
     sequence = sequence.split("")
-    console.log(sequence)
+    // console.log(sequence)
     let finished = false
     while(!finished){
         finished = true
@@ -23,9 +23,9 @@ function react(sequence) {
                 if (sequence[i] !== sequence[i+1])
                 {
                     finished = false
-                    console.log(sequence[i])
+                    // console.log(sequence[i])
                     sequence.splice(i,2)
-                    console.log(sequence)
+                    // console.log(sequence)
                     break
                 }
             }
