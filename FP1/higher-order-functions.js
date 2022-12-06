@@ -15,7 +15,7 @@ let developers = [
 // countFromEurope should return the number of developers who are from Europe.
 // For the list above it would return 1.
 function countFromEurope(developers) {
-    EuropeanDeveloper = developers.filter((developer) => developer.continent == `Europe`);
+    let EuropeanDeveloper = developers.filter((developer) => developer.continent == `Europe`);
     return EuropeanDeveloper.length
 }
 console.log(countFromEurope(developers))
